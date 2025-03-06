@@ -10,7 +10,7 @@ on:
       
 jobs:
   ci:
-    uses: azawsdevops/github-reusable-modules/.github/workflows/ci.yaml@main
+    uses: azawsdevops/github-reusable-modules/.github/workflows/ci-main-branch.yaml@main
     with:
       component: shipping
       appType: nodejs
